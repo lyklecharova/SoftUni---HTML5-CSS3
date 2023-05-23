@@ -1,0 +1,15 @@
+.upper-roman{
+    list-style:upper-roman;
+}
+.lower-latin{
+    list-style: lower-latin;
+}
+.number-decimal{
+    list-style:decimal;
+}
+.circle{
+    list-style: circle;
+}
+.disc{
+    list-style: disc;
+}
