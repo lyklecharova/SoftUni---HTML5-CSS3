@@ -1,0 +1,62 @@
+.page>header {
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+main {
+    flex: 4 1 35rem;
+}
+
+aside {
+    flex: 1 1 15rem;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Georgia, serif;
+}
+
+
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+
+
+
+
+
+
+
+
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+}
