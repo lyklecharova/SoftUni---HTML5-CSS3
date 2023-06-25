@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 80vw;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 75px;
+}
+
+footer {
+    /* position: absolute; */
+    border-top: 2px solid black;
+    bottom: 5px;
+}
+
+.masonry {
+    display: grid;
+    /* width: 60vh; */
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h3, .card p {
+    margin-left: 10px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+    align-items: stretch;
+    height: 300px;
+}
+
+.flex > .card {
+    flex-basis: 30%;
+    position: relative;
+    padding: 10px;
+}
