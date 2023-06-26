@@ -1,0 +1,41 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+body {
+    margin: 0;
+  }
+  .viewport {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .card {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .viewport:nth-child(1) {
+    background-image: linear-gradient(#1f6d9e, #3cbca1);
+  }
+  
+  .viewport:nth-child(2) {
+    background-image: linear-gradient(#b14265, #cc7720);
+  }
+  
+  .viewport:nth-child(1) i {
+    scale: 200%;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 93%;
+  }
+  
+  .viewport:nth-child(2) i {
+    scale: 200%;
+    color: white;
+    position: absolute;
+    top: 94%;
+    left: 92%;
+  }
