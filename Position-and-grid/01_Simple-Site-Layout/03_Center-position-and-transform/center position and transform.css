@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+.card{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    top:50%;
+    left:50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    background-color:rgb(255, 255, 255);
+   
+}
+h3{
+    position: absolute;
+    top:350px;
+    left:30px;
+    font-size: 1em/1.2 ;
+}
+img{
+    width: 100%;
+    position: absolute;
+}
+p{
+    top: 380px;
+    left:30px;
+    padding-right: 60px;
+    position: absolute;
+}
+button{
+    position: absolute;
+    color:white;
+    width: 100px;
+    border-right: 10px;
+    bottom: 25px;
+    right: 25px;
+   
+    background-color:rgb(0, 153, 0);
+}
+

@@ -1,0 +1,57 @@
+body {
+    margin: 10px;
+    padding: 4px;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav1 {
+
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    margin: 4px;
+    float: right;
+}
+
+.img2 {
+    padding: 5px;
+    float: right;
+    border: 5px solid black;
+}
+
+.img1 {
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 6px;
+    padding: 5px;
+    float: left;
+    border: 5px solid black;
+}
+
+a {
+    color: rgb(0, 102, 0);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    size: 1em/1.2;
+}
+
