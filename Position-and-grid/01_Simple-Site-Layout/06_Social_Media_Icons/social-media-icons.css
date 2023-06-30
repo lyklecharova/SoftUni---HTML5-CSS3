@@ -1,0 +1,40 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+body {
+    background-color: azure;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 50%;
+
+}
+
+.fa-facebook:hover {
+    color: darkblue;
+}
+
+.fa-twitter:hover {
+    color: aqua;
+}
+
+.fa-google-plus-g:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: blue
+}
+
+.fa-instagram:hover {
+    color: cadetblue
+}
