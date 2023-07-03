@@ -1,0 +1,94 @@
+.page>header {
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+main {
+    flex: 4 1 35rem;
+}
+
+aside {
+    flex: 1 1 15rem;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Georgia, serif;
+}
+
+
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+
+
+
+
+
+
+
+
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+}
+
+@media(min-width: 500px) {
+    html{
+        font-size: 12px;
+    }
+    
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    html{
+        font-size: 14px;
+    }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+    html{
+        font-size: 16px;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+    html{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+    html{
+        font-size: 21px;
+    }
+}
+@media (min-width: 1900) and (max-width: 2000px) {
+    html{
+        font-size: 2311px;
+    }
+}
