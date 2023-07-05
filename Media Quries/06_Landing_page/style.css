@@ -1,0 +1,260 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+body {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+header {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header nav ul {
+    display: inline-block;
+    text-align: center;
+
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+header #company-name h2 {
+    color: purple;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header #company-name p {
+    font-size: 8px;
+    margin-top: 0px;
+}
+
+#need-website {
+    width: 40vw;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px
+}
+
+
+
+#need-website #planet {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#need-website #planet i {
+    font-size: 100px;
+}
+
+#our-team-h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.horizont-line {
+    font-weight: bold;
+    width: 60px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#our-team {
+    width: 70vw;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card .card__pic{
+    align-items: center;
+}
+
+.card .card__pic img{
+    display: block;
+    width: 30%;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.card .name {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card .title {
+    margin-top: 2px;
+}
+
+.card p {
+    text-align: center;
+}
+
+#news-letter {
+    width: 100vw;
+    background-color: darkmagenta;
+}
+
+#news-letter h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px
+}
+
+#news-letter form {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#testimonials-h2 {
+    text-align: center;
+}
+
+.testimonials {
+    width: 70vw;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+#line-bfr-ftr {
+    border: 3px solid lightgray;
+}
+
+footer {
+    width: 60vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+footer .about-us {
+    width: 30%;
+}
+
+footer .about-us .about-us__header{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+footer .about-us .about-us__info {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+footer .site-map {
+    width: 30%;
+}
+
+footer .site-map .site-map__header {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+footer .site-map ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 3px;
+}
+
+footer .site-map ul a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer .contacts p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+footer .contacts ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 3px;
+}
+
+footer .contacts ul li {
+    font-size: 13px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    header, footer {
+        width: 98vw;
+    }
+
+
+    #our-team, .testimonials {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hidden {
+        display: inline-block;
+        border: none;
+        background-color: transparent;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    footer {
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        gap: 0px;
+    }
+
+    /* footer .about-us,
+    footer .site-map,
+    footer .contacts {
+        width: 30%;
+    } */
+
+    /* footer .site-map {
+        width: 20%;
+        magin
+    } */
+}
