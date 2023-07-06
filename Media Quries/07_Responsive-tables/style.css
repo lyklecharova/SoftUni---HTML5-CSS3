@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+table {
+    margin: 30px auto;
+    border: 1px solid gray;
+}
+
+table thead tr{
+    background-color: black;
+}
+
+table thead tr th {
+    color: white;
+    font-weight: normal;
+}
+
+table tbody tr td.white {
+    background-color: white;
+}
+
+table thead tr th,
+table tbody tr td{
+    text-align: start;
+    padding-left: 5px;
+    padding-right: 150px;
+    height: 16px;
+}
+
+@media (max-width: 820px) {
+    table {
+        width: 80vw;
+    }
+
+    table thead tr th,
+    table tbody tr td{
+        padding-left: 5px;
+        padding-right: 100px;
+        height: 16px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    th {
+        display: inline-block;
+    }
+}
