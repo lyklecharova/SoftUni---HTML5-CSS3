@@ -1,0 +1,101 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+html {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.page{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("image/image.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.titleHeader {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    font-size: 38px;
+    margin-right: 50px;
+    padding: 30px 0px 0px 20px;
+
+    box-shadow: 28px 39px 27px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 28px 39px 27px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 28px 39px 27px -18px rgba(0, 0, 0, 0.75);
+   
+    border-bottom: 2px solid #ffffff;
+
+}
+
+
+.card {
+    background-color: #b1aaa5;
+    color: #ffffff;
+    font-weight: italic;
+    width: 23rem;
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    border: 3px solid rgb(183, 183, 183);
+    text-align: right;
+    padding: 20px;
+
+}
+
+.title {
+    background-color: #f2f0f3;
+}
+
+.span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+i {
+    padding: 1rem;
+}
+
+.italic {
+    font-weight: bold;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "title aside"
+        "title aside";
+    background-color: #bab1ad;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.title {
+    grid-area: title;
+}
+
+.btn{
+    background-color: #67784d;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

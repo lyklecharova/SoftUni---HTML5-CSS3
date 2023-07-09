@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+body {
+    background-image: url("images/background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    color: #333333;
+}
+
+.title {
+    background-image: url("images/form-background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 50px 50px;
+
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 50%;
+    padding: 3rem;
+    margin: 25px;
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "first second"
+        "email1 email1"
+        "pass pass"
+        "passConfirm passConfirm"
+        "check check";
+}
+
+.first {
+    grid-area: first;
+    color: #c7c9c9;
+}
+
+.second {
+    grid-area: second;
+    color: #c7c9c9;
+}
+
+.email1 {
+    grid-area: email1;
+    color: #c7c9c9;
+}
+
+.pass {
+    grid-area: pass;
+    color: #c7c9c9;
+}
+
+.passConfirm {
+    grid-area: passConfirm;
+    color: #c7c9c9;
+}
+
+.check {
+    grid-area: check;
+    color: #c7c9c9;
+}
+
+
+.form input {
+
+    padding: 1rem;
+    margin: 0.5rem;
+   
+    border-radius: 30px;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: #ae3c33;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+
+}
