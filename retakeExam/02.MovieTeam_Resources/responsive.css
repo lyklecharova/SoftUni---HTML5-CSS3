@@ -1,0 +1,34 @@
+@media(width <=600px) {
+    header nav {
+
+        justify-content: center;
+    
+    }
+    nav ul{
+        display: grid;
+        justify-items: center;
+        gap:12px;
+    }
+    .team-description ul {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 316px 250px;
+        grid-template-rows: 398px auto 80px;
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+    .header-title button {
+        margin: 0 auto;
+    }
+    .choose-us ul {
+        display: grid;
+    }
+    .blog-news ul {
+        display: grid;
+        gap: 26px;
+    }
+   
+    .header-title button {
+        display: flex;
+    }
+}

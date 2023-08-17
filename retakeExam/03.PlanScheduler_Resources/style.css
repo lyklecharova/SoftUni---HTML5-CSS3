@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+:root {
+    --header-color-beige: rgb(217, 217, 217);
+    --text-color-red: rgb(255, 123, 74);
+    --background-color-gray: rgb(217, 217, 217);
+    --background-color-ligth-gray: rgb(245, 245, 245);
+}
+
+.site-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*HEADER*/
+.buyNow-bnt {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 3rem;
+    align-items: center;
+    background-color: var(--header-color-beige);
+}
+
+.nav-list {
+    display: flex;
+    gap: 1.2rem;
+}
+
+/*HERO*/
+
+.hero {
+    background-image: url("images/background.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text-container {
+    padding: 7rem 33rem 5rem 12rem;
+
+}
+
+.main-title {
+    max-width: 400px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-p {
+    color: white;
+    margin-top: 3.9rem;
+    line-height: 1;
+}
+
+.hero-btn {
+    margin-top: 2.6rem;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 0.6rem;
+}
+
+/*SECOND-SECTION*/
+
+.second-section-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5rem 6rem 2rem 6rem;
+}
+
+.benefits-title {
+    color: var(--text-color-red);
+    font-weight: bold;
+    font-size: 2.75rem;
+}
+
+.benefits-subtitle {
+    margin-top: 1.5rem;
+}
+
+.benefits-p {
+    font-size: 0.5rem;
+}
+
+/*TRUTH-SECTION*/
+
+.truth-section-container {
+    background-color: var(--background-color-gray);
+    padding: 2rem;
+}
+
+.card-container {
+    display: flex;
+}
+
+.img-container {
+    width: 38%;
+    padding: 1rem;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.truth-section-text-container {
+    width: 60%;
+    padding: 2rem 1rem 1rem 0;
+}
+
+.subtitle-p {
+    font-size: 0.7rem;
+}
+
+.truth-title {
+    margin-top: 2rem;
+}
+
+.truth-p {
+    margin-top: 2.8rem;
+    line-height: 1;
+    font-size: 0.8rem;
+}
+
+.read-more {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.author {
+    margin-top: 2.8rem;
+    font-size: 0.8rem;
+}
+
+/*pricing-SECTION*/
+
+.pricing-container {
+    background-color: var(--background-color-ligth-gray);
+}
+
+.pricing-background-color {
+    padding: 2rem 4rem;
+    margin: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    background-color: white;
+}
+
+.pricing-one {
+    background-color: white;
+}
+
+.pricing-p {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+.pricing-card .price {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-card {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.pricing-two {
+    background-color: var(--text-color-red);
+}
+
+.pricing-three {
+    background-color: black;
+    color: white;
+}
+
+.pricing-text {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.pricing-btn {
+    margin-top: 3.4rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.pricing-three .pricing-btn {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    background-color: var(--background-color-gray);
+    padding: 1rem 3rem;
+}
+
+.icons-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
